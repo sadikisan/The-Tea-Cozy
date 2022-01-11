@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+header {
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+    height: 50px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.img-container {
+    background: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.img-container-text {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.Tea-of-the-month {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.gallery {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery img {
+    height: 200px;
+    width: 300px;
+}
+
+.gallery-text {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery-2 {
+    margin: 0 auto;
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery-2 img {
+    height: 200px;
+    width: 300px;
+}
+
+.gallery-text-2 {
+    margin: 0 auto;
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.location {
+    background: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.location-text {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.downtown {
+    background-color: black;
+    display: block;
+    justify-content: space-around;
+    height: 300px;
+    width: 300px;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.east-bayside {
+    background-color: black;
+    display: block;
+    justify-content: space-around;
+    height: 300px;
+    width: 300px;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.oakdale {
+    background-color: black;
+    display: block;
+    justify-content: space-around;
+    height: 300px;
+    width: 300px;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    height: 200px;
+}
+
+.copyright {
+    float: left;
+    padding-left: 20px;
+}
